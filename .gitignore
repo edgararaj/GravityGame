@@ -4,6 +4,4 @@ bin/
 bin-obj/
 
 # Files
-*.vcxproj
-*.vcxproj.*
-*.sln
+*.vcxproj.user

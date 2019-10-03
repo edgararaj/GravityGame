@@ -1,9 +1,20 @@
 #include <SFML/Graphics.hpp>
+#include "Log.h"
+#include <string>
 
 int main() {
+	// spdlog init 
+	Log::Init();
+	// ---------
+
+	// sfml init 
 	sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
+	// ---------
+
+	// sfml obj
 	sf::CircleShape shape(100.f);
 	shape.setFillColor(sf::Color::Green);
+	// -------------
 
 	while (window.isOpen())
 	{

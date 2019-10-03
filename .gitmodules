@@ -1,0 +1,3 @@
+[submodule "GravityGame/vendor/spdlog"]
+	path = GravityGame/vendor/spdlog
+	url = https://github.com/gabime/spdlog
