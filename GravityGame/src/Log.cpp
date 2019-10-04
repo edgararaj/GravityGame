@@ -9,5 +9,5 @@ void Log::Init() {
 	s_logger = spdlog::stdout_color_mt("Game");
 	s_logger->set_level(spdlog::level::trace);
 
-	s_logger->trace("spdlog initialized");
+	LOG_INFO("spdlog initialized");
 }
